@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    background-color: #E4C59E;
+    background-color: #F3E1C8;
 }
 
 
@@ -46,7 +46,87 @@ body{
 
 
 
+.drinksection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+    
 
+.menucards{
+    display: flex;
+    align-items: center;
+    width: 90rem;
+    gap: 5rem;
+}
+
+.item-info{
+    width: 50%;
+    text-align: center;
+}
+
+
+.drinktext-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+    font-size: 3rem;
+
+}
+.drinktext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+    font-size: 2rem;
+}
+
+.images{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}
+
+
+
+
+.foodsection{
+
+    background-color: #473b39;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+
+
+.foodtext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+
+}
+
+.foodtext-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+
+.pageheader{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(88, 26, 26);;
+}
 
 
 

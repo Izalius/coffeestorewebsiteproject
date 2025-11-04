@@ -6,7 +6,7 @@
     padding: 0;
 }
 body{
-    background-color: #E4C59E;
+     background-color: #F3E1C8;
 }
 
 
@@ -74,9 +74,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
 .section1{
     display:flex;
     flex-direction: row;
@@ -95,7 +92,7 @@ body{
     padding-right: 10rem;
 }
 
-.section1-text-header{
+.section1-header{
     font-size: 4rem;
     color: rgb(88, 26, 26);
     padding-bottom: 1rem;
@@ -103,20 +100,16 @@ body{
 }
 
 .section1-text{
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
+    padding-top: 4rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
 }
 
 .section1-image{
     width: 60rem;
     border-radius: 20px;
 }
-
-
-
-
-
 
 .section2{
     padding-top: 6vw;
@@ -149,13 +142,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     
 }
-
-
-
-
-
-
-
 
 .footer{
     padding-top: 1vw;
