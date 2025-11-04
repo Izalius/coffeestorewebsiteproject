@@ -193,8 +193,13 @@ body{
 }
 
 .socials{
-    height: 2vw;
+    height: 3vw;
 }
+
+.credit{
+    height: 1px;
+}
+
 
 
 
