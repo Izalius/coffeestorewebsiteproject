@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3E1C8;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    background-color: #322C2B;
+    padding-top: 2rem;
+  
+}
+ .header-links-box{
+    display: flex;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center; 
+ }
+ .link{
+    text-decoration: none;
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+ }
+.logo{
+    height: 17rem;
+}
+
+/*this page is split into 2 sections the drinkssection and the foodsection both contain the menucards*/
+/*the only diffrence between the 2 sections is the text used and the headers*/
+.drinksection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+.drinktext-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+    font-size: 3rem;
+}
+.drinktext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+    font-size: 2rem;
+}
+
+.foodsection{
+    background-color: #473b39;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+.foodtext-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.foodtext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+
+}
+
+/*each of the menu cards are split up into 2 halfs a item info box and corosponding image*/
+/*i have also included the page header as a seprate class*/
+.pageheader{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(88, 26, 26);;
+}
+.menucards{
+    display: flex;
+    align-items: center;
+    width: 90rem;
+    gap: 5rem;
+}
+.item-info{
+    width: 50%;
+    text-align: center;
+}
+.images{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.footer{
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+    background-color: #322C2B;
+    padding-left: 10rem;
+}
+.footer-links-box{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    padding-top: 1rem;
+    justify-content: left;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.social-medialinks{
+    padding-top: 1vw;
+    display: flex;
+    gap: 3rem;
+    justify-content: center; 
+    padding-right: 20rem;
+}
+.socials{
+    height: 3vw;
+}

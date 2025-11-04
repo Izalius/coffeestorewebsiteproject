@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: #F3E1C8;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    background-color: #322C2B;
+    padding-top: 2rem;
+}
+.header-links-box{
+    display: flex;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center; 
+}
+.link{
+    text-decoration: none;
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    height: 17rem;
+}
+
+/*this page only contains 1 section split into with a text box containing the paragraphs with headers and a image box containing the images stacked*/
+.about-section{
+
+    border: 5px solid black;
+    width: 100%;
+    gap: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+}
+.about-text-box{
+    width: 30rem;
+    text-align: center;
+}
+.about-header{
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(88, 26, 26);;
+}
+.about-text{
+    padding-top: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+}
+
+.image-box{
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    width: 55rem;
+    gap: 3rem;
+}
+.images{
+    border-radius: 20px;
+}
+
+.footer{
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+    background-color: #322C2B;
+    padding-left: 10rem;
+}
+.footer-links-box{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    padding-top: 1rem;
+    justify-content: left;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.social-medialinks{
+    padding-top: 1vw;
+    display: flex;
+    gap: 3rem;
+    justify-content: center; 
+    padding-right: 20rem;
+}
+.socials{
+    height: 3vw;
+}
