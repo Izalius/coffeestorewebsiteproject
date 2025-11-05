@@ -13,35 +13,39 @@ body{
 .header{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     overflow: hidden;
-    justify-content: left;
     background-color: #322C2B;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    height: 10rem;
+    width: 100%;
   
 }
  .header-links-box{
     display: flex;
     gap: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    justify-content: center; 
+    padding-left: 5rem;
+    justify-content: left; 
  }
  .link{
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
  }
 .logo{
-    height: 17rem;
+    height: 8rem;
+    padding: 3rem;
 }
+
+/*homepage*/
 
 /*banner-section */
 .banner-section{
     border: 5px solid rgb(0, 0, 0);
     width: 100%;
-    height: 45vw;
+    height: 30vw;
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -49,10 +53,10 @@ body{
 }
 .banner-text{
     position: absolute;
-    left: 15rem;
-    bottom: 10rem;
+    left: 20rem;
+    bottom: 5rem;
     color: rgb(253, 253, 253);
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
@@ -66,8 +70,8 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .textbox1{
   
@@ -76,7 +80,7 @@ body{
     padding-right: 10rem;
 }
 .section1-header{
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(88, 26, 26);
     padding-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
@@ -88,14 +92,14 @@ body{
     color: rgb(105, 54, 54);
 }
 .section1-image{
-    width: 50%;
+    width: 30%;
     border-radius: 20px;
 }
 
 /*section2*/
 .section2{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: #473b39;
     display: flex;
     align-items: center;
@@ -103,7 +107,7 @@ body{
 }
 .section2-header-text{ 
     color: aliceblue;
-    font-size: 4rem;
+    font-size: 3rem;
     padding-bottom: 5rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -112,13 +116,141 @@ body{
     height: 100%;
     background-color: #131010;
     text-align: center;
-    padding: 6rem;
+    padding: 4rem;
 }
 .section2-text{
     color: aliceblue;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
+
+/*about page*/
+
+/*this page only contains 1 section split into with a text box containing the paragraphs with headers and a image box containing the images stacked*/
+.about-section{
+
+    border: 5px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    justify-content: center;
+}
+.about-text-box{
+    width: 30rem;
+    text-align: center;
+}
+.about-header{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(88, 26, 26);;
+}
+.about-text{
+    padding-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(105, 54, 54);
+}
+
+.image-box{
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 3rem;
+}
+.images{
+    border-radius: 20px;
+}
+
+/* menu page*/
+
+/*this page is split into 2 sections the drinkssection and the foodsection both contain the menucards*/
+/*the only diffrence between the 2 sections is the text used and the headers*/
+.drinksection{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.drinktext-header{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 54, 54);
+    font-size: 3rem;
+}
+.drinktext{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(105, 54, 54);
+    font-size: 2rem;
+}
+
+.foodsection{
+    background-color: #473b39;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.foodtext-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.foodtext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+/*each of the menu cards are split up into 2 halfs a item info box and corosponding image*/
+/*i have also included the page header as a seprate class*/
+.pageheader{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(88, 26, 26);;
+}
+.menucards{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 3rem;
+}
+.item-info{
+    width: 50%;
+    text-align: center;
+}
+.item-images{
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*this is the standard css for creating the footer on everypage */
 .footer{
