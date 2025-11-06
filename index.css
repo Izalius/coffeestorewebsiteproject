@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   background-color: #322c2b;
   padding-top: 1rem;
-  height: 10rem;
+  height: 8rem;
   width: 100%;
 }
 .header-links-box {
@@ -32,9 +32,13 @@ body {
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
 }
+.link:hover{
+  text-decoration: underline;
+  transition: ease;
+}
 .logo {
   height: 8rem;
-  padding: 3rem;
+  padding-bottom: 1rem;
 }
 
 /*homepage*/
@@ -43,7 +47,7 @@ body {
 .banner-section {
   border: 5px solid rgb(0, 0, 0);
   width: 100%;
-  height: 30vw;
+  height: 35rem;
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -51,8 +55,7 @@ body {
 }
 .banner-text {
   position: absolute;
-  left: 20rem;
-  bottom: 5rem;
+  left: 17rem;
   color: rgb(253, 253, 253);
   font-size: 8rem;
   font-weight: bold;
@@ -148,7 +151,6 @@ body {
   font-size: 2rem;
   color: rgb(105, 54, 54);
 }
-
 .image-box {
   padding-left: 8rem;
   display: flex;
@@ -206,6 +208,7 @@ body {
   color: whitesmoke;
 }
 
+
 /*each of the menu cards are split up into 2 halfs a item info box and corosponding image*/
 /*i have also included the page header as a seprate class*/
 .pageheader {
@@ -215,6 +218,7 @@ body {
 }
 .menucards {
   display: flex;
+  flex-direction: row;
   align-items: center;
   width: 60%;
   gap: 3rem;
@@ -231,8 +235,8 @@ body {
 
 /*this is the standard css for creating the footer on everypage */
 .footer {
-  padding-top: 1vw;
-  padding-bottom: 2vw;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -246,13 +250,17 @@ body {
   display: flex;
   flex-direction: column;
 }
-.footer-text {
+.footer-link {
   padding-top: 1rem;
   justify-content: left;
   text-decoration: none;
   color: aliceblue;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
+}
+.footer-link:hover{
+  text-decoration: underline;
+  transition: ease;
 }
 .social-medialinks {
   padding-top: 1vw;
@@ -262,5 +270,5 @@ body {
   padding-right: 20rem;
 }
 .socials {
-  height: 3vw;
+  height: 3rem;
 }
